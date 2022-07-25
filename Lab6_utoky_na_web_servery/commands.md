@@ -1,7 +1,6 @@
 1. open Firefox browser 
 6. 
-``` 
-http://labs.training.local/rest/products/search?q= 
+``` http://labs.training.local/rest/products/search?q= 
 ```
 7. 
 ``` 
